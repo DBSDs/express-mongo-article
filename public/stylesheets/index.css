@@ -1,0 +1,29 @@
+html, body {
+  background-color: #f6f8fa;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  
+}
+th {
+  padding: 15px;
+  text-align: center;
+}
+
+td {
+  padding: 15px;
+  text-align: center;
+}
+td:hover {
+  background-color: #17aaff;
+  border-radius: 5px;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.article{
+  margin:50px auto;
+  border-radius: 5px;
+  border: 1px solid #e1e4e8;
+}

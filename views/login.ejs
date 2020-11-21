@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>登录</title>
+  <link href="/stylesheets/login.css"  rel='stylesheet'/>
+  <%- include head %>
+</head>
+
+<body>
+  <div>
+    <form action="/users/login" method="post" class="form-box">
+      <div>
+        <div class="tip">账号</div>
+        <input class="input" type="text" name="username" value="" placeholder="请输入用户名" />
+      </div>
+      <div>
+        <div class="tip">密码</div>
+        <input class="input" type="password" name="password" value="" placeholder="请输入密码" />
+      </div>
+      <div>
+        <input class="btn" type="submit" value="登录" />
+      </div>
+      <div class="regist-tip">没有账号，<a href="/regist">注册</a>！</div>
+      <div class="tt">createby hardbrain,welcome!</div>
+    </form>
+  </div>
+</body>
+
+</html>

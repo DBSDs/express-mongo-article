@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include head %>
+    <link href="/stylesheets/detail.css"  rel='stylesheet'/>
+    <title>详情页</title>
+</head>
+<body>
+    <div class="detail">
+      <h3 class="title">标题：<%= item.title %></h3>
+        <h4 class="create-tip">
+          <span>创建人：<%= item.username%></span>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <span>创建时间：<%= item.time%></span>
+        </h4>
+        <h6>正文</h6>
+        <div class="content"><%- item.content%></div>
+        <a class="btn" href="/">返回</a>
+    </div>
+</body>
+</html>

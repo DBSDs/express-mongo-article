@@ -1,2 +1,2 @@
-# express-mongo-
-express+mongo实现登录注册及文章增伤改查
+# article-project
+ express框架实战项目，关于登录和文章的增删改查
